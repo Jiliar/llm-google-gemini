@@ -50,7 +50,7 @@ El objetivo principal es comprender cómo interactuar con modelos de lenguaje ut
 Este proyecto utiliza las siguientes versiones de Python y bibliotecas:
 
 ```toml
-python = "^3.11.11"
+python = ">=3.11.11,<3.13"
 google-generativeai = "^0.8.5"
 google-genai = "^1.16.1"
 googletrans = "^4.0.2"
@@ -61,3 +61,5 @@ requests = "^2.32.3"
 sentencepiece = "^0.2.0"
 torch = "^2.7.0"
 ipywidgets = "^8.1.7"
+litellm = "1.68.0"
+crewai = "^0.121.0"
